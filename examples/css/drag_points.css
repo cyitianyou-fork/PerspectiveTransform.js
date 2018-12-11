@@ -21,25 +21,20 @@ html, body{
     text-align: center;
 }
 #container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -276px;
-    margin-top: -276px;
-    width: 512px;
-    height: 512px;
-    background: url(../img/background.jpg) 0% 0% / 100% 100;
-    
-    
-    border: 20px solid #FFF;
-    -moz-box-shadow: 0 0 30px #CCC;
-    -webkit-box-shadow: 0 0 30px #CCC;
-    -o-box-shadow: 0 0 30px #CCC;
-    -ms-box-shadow: 0 0 30px #CCC;
-    box-shadow: 0 0 30px #CCC;
+      position: relative;
+      width: 900px;
+      height: 600px;
+      background: #eee url(../img/background.jpg);
+      background-size: 100% 100%;
+      padding: 2px;
+      margin: 0 auto;
+      border: 2px solid #a9c9e2;
+      display: none;
+      float: left;
 }
 .img {
     position: absolute;
+    z-index: 43;
     background-image: url(../img/20130803103756562182.jpg);
 }
 .pt {
