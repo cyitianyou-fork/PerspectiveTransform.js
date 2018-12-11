@@ -29,12 +29,13 @@ html, body{
       padding: 2px;
       margin: 0 auto;
       border: 2px solid #a9c9e2;
-      display: none;
-      float: left;
+      display: block;
 }
 .img {
     position: absolute;
     z-index: 43;
+    width:500px;
+    height:500px;
     background-image: url(../img/20130803103756562182.jpg);
 }
 .pt {
